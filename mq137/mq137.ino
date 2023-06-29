@@ -6,10 +6,10 @@
  */
 //This program works best at a fresh air room with temperaure Temp: 20℃, Humidity: 65%, O2 concentration 21% and when the value of Rl is 47K
 
-#define RL 4.7  //The value of resistor RL is 47K
+#define RL 10  //The value of resistor RL is 47K
 #define m -0.2981 //Enter calculated Slope
 #define b -0.2184 //Enter calculated intercept
-#define Ro 5
+#define Ro 9
 void setup() //Runs only once
 {
   Serial.begin(9600); //Initialise serial COM for displaying the value
